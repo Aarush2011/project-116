@@ -1,0 +1,26 @@
+body{
+    background-size: cover;
+    background-position:center ;
+    text-align: center;
+}
+.btn-info:hover{
+    background-color: green;
+}
+h2{
+    font-size: 30px !important;
+}
+canvas{
+    border:2px solid gray;
+    border-radius: 10px;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation {
+    from{
+        box-shadow: 5px 5px 35px rgb(255, 0, 0);
+    }
+    to{
+        box-shadow: 5px 5px 35px green;
+    }
+}
